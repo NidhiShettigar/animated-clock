@@ -16,7 +16,7 @@ body{
 .container{
     position: relative;
     background: #2f363e;
-    min-height: 500px;
+    /* min-height: 500px; */
     border-radius: 20px;
     border-top-left-radius: 225px;
     border-top-right-radius: 225px;
@@ -39,5 +39,20 @@ body{
     inset 5px 5px 10px rgba(0,0,0,0.5),
     inset 5px 5px 20px rgba(0,0,0,0.2),
     inset -5px -5px 15px rgba(0,0,0,0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
 }
-/*4:35 video*/
+
+.clock::before
+{
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: #2f363e;
+    border: 3px solid #fff;
+    border-radius: 50%;
+}
+/*5:58 video*/
