@@ -78,5 +78,25 @@ body{
     height: 300px;
     border: 2px solid rgba(0,0,0,0.25);
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
-/*8:08 video*/
+.circle i
+{
+    position: absolute;
+    width: 6px;
+    height: 50%;
+    background: var(--clr);
+}
+.circle2
+{
+    width: 240px;
+    height: 240px;
+}
+.circle3
+{
+    width: 180px;
+    height: 180px;
+}
+/*9:50 video*/
